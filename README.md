@@ -45,7 +45,7 @@ sudo apt install kde-standard
 
 sudo apt install cinnamon-desktop-enviroment
 
-## MATE
+## MATE (not possible, if you know how, then contribute and paste it in)
 
 sudo apt install ubuntu-mate-desktop
 
@@ -81,7 +81,7 @@ startplasma-x11
 
 cinnamon-session
 
-## MATE
+## MATE (not possible, if you know how, contribute and paste it in)
 
 mate-session
 
