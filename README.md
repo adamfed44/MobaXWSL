@@ -5,6 +5,24 @@ A short and easy guide on how to get desktop enviroments with MobaXterm (NOT SPO
 
 (fluxbox running in VcxSrv, with MobaXterm.)
 
+So far working:
+
+XFCE4
+
+LXDE
+
+FluxBox
+
+Usable, but not practical:
+
+Gnome
+
+Cinnamon
+
+Not working:
+
+MATE
+
 First, get MobaXterm.
 
 https://mobaxterm.mobatek.net/download.html
@@ -25,7 +43,7 @@ sudo apt update
 
 Install the desktop enviroment of choice:
 
-## Gnome
+## Gnome (broken, has the whole bottom black, if you know how to fix it, then contribute and paste it in)
 
 sudo apt install ubuntu-gnome-desktop
 
@@ -37,15 +55,15 @@ sudo apt install xfce4
 
 sudo apt install lxde
 
-## KDE Plasma
+## KDE Plasma (broken, stands at black desktop, if you know how to fix it, then contribute and paste it in)
 
 sudo apt install kde-standard
 
-## Cinnamon
+## Cinnamon (broken, has the whole bottom black, if you know how to fix it, then contribute and paste it in)
 
 sudo apt install cinnamon-desktop-enviroment
 
-## MATE (not possible, if you know how, then contribute and paste it in)
+## MATE (broken, cant launch openegl, if you know how to fix it, then contribute and paste it in)
 
 sudo apt install ubuntu-mate-desktop
 
@@ -61,7 +79,7 @@ export DISPLAY=127.0.0.1:0.0
 
 Then do the start command for your desktop:
 
-## Gnome
+## Gnome (broken, has the whole bottom black, if you know how to fix it, then contribute and paste it in)
 
 gnome-session
 
@@ -73,15 +91,15 @@ startxfce4
 
 startlxde
 
-## KDE Plasma
+## KDE Plasma (broken, stands at black desktop, if you know how to fix it, then contribute and paste it in)
 
 startplasma-x11
 
-## Cinnamon
+## Cinnamon (broken, has the whole bottom black, if you know how to fix it, then contribute and paste it in)
 
 cinnamon-session
 
-## MATE (not possible, if you know how, contribute and paste it in)
+## MATE (broken, cant launch openegl, if you know how to fix it, then contribute and paste it in)
 
 mate-session
 
